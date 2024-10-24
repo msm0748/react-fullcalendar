@@ -1,50 +1,13 @@
-# React + TypeScript + Vite
+# 기능
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### 일정 추가 기능
 
-Currently, two official plugins are available:
+사용자는 일정 추가를 위해 특정 날짜와 시간을 선택하거나 드래그하여 범위를 지정할 수 있습니다.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 일정 수정 기능
 
-## Expanding the ESLint configuration
+일정 수정은 드래그 앤 드롭 방식으로 구현됩니다. 사용자는 기존 일정을 드래그하여 새로운 시간으로 쉽게 이동할 수 있으며, 이를 통해 일정을 간편하게 수정할 수 있습니다.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+# 기타 사항
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+현재 모바일 지원은 제공되지 않습니다.
