@@ -1,0 +1,14 @@
+/* 토요일 */
+.fc-day-sat {
+  background-color: #f0f8ff; /* 연한 파란색 */
+}
+
+/* 일요일 */
+.fc-day-sun {
+  background-color: #ffe4e1; /* 연한 빨간색 */
+}
+
+.fc .fc-highlight {
+  background-color: transparent;
+  border: 1px solid blue;
+}

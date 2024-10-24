@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/calendar.tsx","./src/components/form/scheduleform/row.tsx","./src/components/form/scheduleform/index.tsx","./src/components/modal/addschedulemodal.tsx","./src/data/dummydata.ts","./src/types/calendar.d.ts"],"version":"5.6.3"}
